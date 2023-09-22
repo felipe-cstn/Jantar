@@ -1,9 +1,12 @@
 package JantarDesafio;
 
 public class Comida {
-	String nome = "Strogonoff";
-	double peso = 0.5;
+	String nome;
+	double peso;
 	
-	
+	Comida(String nomeComida, double pesoComida){
+		nome = nomeComida;
+		peso = pesoComida;
+	}
 	
 }
